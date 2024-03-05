@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+}
+/* Beginning of header section */
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    /* background-color: rgb(20, 108, 20); */
+    padding-top: 10px;
+}
+.links{
+    width: 500px;
+    height: 60px;
+    padding-top: 15px;
+    word-spacing: 30px;
+}
+#splash{
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+.links a:hover{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color: #119062;
+}
+.button{
+    width: 300px;
+    height: 60px; 
+    padding-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+#firstlogo{
+    color: #119062;
+    font-size: 20;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    background-color: #119062;
+    color: white;
+    border:#119062;
+    font-family: 'poppins';
+    font-size: 20;
+    border-radius: 15px;
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Ending of header section */
+
+/* body section  */
+.body{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/gg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.inner{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    opacity: .9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.inner-content {
+    width: 600px;
+    height: 300px;
+}
+.inner-content p{
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.inner-content h6{
+    color: white;
+    padding-left: 20px;
+    font-weight: normal;
+    word-spacing: 5px;
+}
+#name{
+    color: #119062;
+    font-size: 16px;
+}
+.search{
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border:2px solid #119062;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.talk{
+    margin-top: 3px;
+    margin-right: 2px;
+    padding-left: 20px;
+    padding-top: 8px;
+    color: black;
+    width: 120px;
+    height: 40px;
+    background-color: #119062;
+    float: right;
+    border-radius: 15px;
+}
+
+/* footer sections starting */
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+}
+.left-logo{
+    width: 300px;
+    height: 130px;
+   border-top-right-radius: 50%;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Quick-links{
+    width: 400px;
+    height: 130px;
+    border-left: 3px solid #119062;
+    
+}
+.Quick-links a{
+    display: block;
+    padding-left: 60px;
+    padding-top: 3px;
+    font-weight: lighter;
+}
+#splashfooter{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 3px;
+}
+.socialmedia{
+    width: 300px;
+    height: 130px;
+}
+.socialmedia p{
+    font-size: 13px;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+#follow{
+    color: #119062;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fa-x-twitter{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px; 
+}
+.fa-github{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20; 
+    padding-right: 10px;   
+}
+.fa-instagram{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;  
+    padding-right: 10px;   
+}
+.fa-linkedin{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px;  
+}
+.logos{
+    white-space: nowrap;
+}
+/* footer sections ending */

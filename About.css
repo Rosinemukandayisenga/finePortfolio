@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background-color: black;
+}
+/* Starting of header section */
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+}
+.links{
+    width: 500px;
+    height: 60px;
+    padding-top: 15px;
+    word-spacing: 30px;
+}
+#splash{
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+.links a:hover{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color: #119062;
+}
+.button{
+    width: 300px;
+    height: 60px; 
+    padding-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+#firstlogo{
+    color: #119062;
+    font-size: 20;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    background-color: #119062;
+    color: white;
+    border:#119062;
+    font-family: 'poppins';
+    font-size: 20;
+    border-radius: 15px;
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Ending of header section */
+/* starting of body section */
+.body-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 40px;   
+}
+.left-part{
+    width: 300px;
+    height: 400px;
+    border-top: 10px solid #119062;
+    border-left: 10px solid #119062; 
+    border-top-left-radius: 10px;
+    margin-right: 30px;
+}
+.right-part{
+    width: 800px;
+    height: 400px;
+}
+h1{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+}
+h3{
+    color: #119062;
+    font-size: 15px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+#dev{
+    color: white;
+    font-size: 15px;
+}
+.button-container{
+ width: 600px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+}
+#about{
+    font-size: 18px;
+    color: #119062;
+}
+#description{
+    padding-top: 50px;
+    padding-left: 80px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+#Btnb{
+    width: 150px;
+    height: 40px;
+    background-color: #119062;
+    border-radius: 15px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'poppins';
+    border: 1px solid #119062;
+    border-style: dotted;
+}
+/* Ending of body section */
+footer{
+    border-top: 1px solid #119062;
+    margin-top: 40px;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+}
+.left-logo{
+    width: 300px;
+    height: 130px;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Quick-links{
+    width: 400px;
+    height: 130px;
+    border-left: 1px solid #119062;
+    
+}
+.Quick-links a{
+    display: block;
+    padding-left: 60px;
+    padding-top: 3px;
+    font-weight: lighter;
+}
+#splashfooter{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 3px;
+}
+.socialmedia{
+    width: 300px;
+    height: 130px;
+}
+.socialmedia p{
+    font-size: 13px;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+#follow{
+    color: #119062;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fa-x-twitter{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px; 
+}
+.fa-github{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20; 
+    padding-right: 10px;   
+}
+.fa-instagram{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;  
+    padding-right: 10px;   
+}
+.fa-linkedin{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px;  
+}
+.logos{
+    white-space: nowrap;
+}

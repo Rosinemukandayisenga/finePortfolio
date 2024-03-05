@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background-color: black;
+}
+/* Beginning of header section */
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    /* background-color: rgb(20, 108, 20); */
+    padding-top: 10px;
+}
+.links{
+    width: 500px;
+    height: 60px;
+    padding-top: 15px;
+    word-spacing: 30px;
+}
+#splash{
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+.links a:hover{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color: #119062;
+}
+.button{
+    width: 300px;
+    height: 60px; 
+    padding-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+#firstlogo{
+    color: #119062;
+    font-size: 20;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    background-color: #119062;
+    color: white;
+    border:#119062;
+    font-family: 'poppins';
+    font-size: 20;
+    border-radius: 15px;
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Ending of header section */
+.body-content{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.left-content{
+    width: 400px;
+    height: 200px;
+    background-color:#1E1E1E;
+    margin-top: 90px;
+    text-align: center; 
+    border-radius: 20px;
+
+}
+.right-content{
+    width: 400px;
+    height: 440px;
+    background-color: #1E1E1E;
+    margin-left: 40px;   
+    border-radius: 10px;
+}
+.fa-envelope{
+    padding-top: 40px;
+    color: #119062;
+    font-size: 20; 
+    padding-right: 10px;
+}
+p{
+    font-size: 13px;
+    color: white;
+}
+.fa-location-dot{
+    padding-top: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 20px; 
+}
+.fa-phone{
+    padding-top: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 20px;
+}
+input{
+    width: 280px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-left: 5px;
+}
+textarea{
+    width: 280px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#btna{
+width: 130px;
+height: 40px;
+background-color: #119062;
+color: white;
+border:#119062;
+font-family: 'poppins';
+font-size: 20;
+border-radius: 10px;
+font-weight: lighter;
+margin-left: 80px;
+margin-top: 15px;
+}
+/* footer sections starting */
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+   margin-top: 5px;
+   border-top: 1px solid #119062;
+}
+.left-logo{
+    width: 300px;
+    height: 130px;
+   border-top-right-radius: 50%;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Quick-links{
+    width: 400px;
+    height: 130px;
+    border-left: 3px solid #119062;
+    
+}
+.Quick-links a{
+    display: block;
+    padding-left: 60px;
+    padding-top: 3px;
+    font-weight: lighter;
+}
+#splashfooter{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 3px;
+}
+.socialmedia{
+    width: 300px;
+    height: 130px;
+}
+.socialmedia p{
+    font-size: 13px;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+#follow{
+    color: #119062;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fa-x-twitter{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px; 
+}
+.fa-github{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20; 
+    padding-right: 10px;   
+}
+.fa-instagram{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;  
+    padding-right: 10px;   
+}
+.fa-linkedin{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px;  
+}
+.logos{
+    white-space: nowrap;
+}
+/* footer sections ending */

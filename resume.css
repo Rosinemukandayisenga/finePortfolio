@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background-color: black;
+}
+/* Beginning of header section */
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+}
+.links{
+    width: 500px;
+    height: 60px;
+    padding-top: 15px;
+    word-spacing: 30px;
+}
+#splash{
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+.links a:hover{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color: #119062;
+}
+.button{
+    width: 300px;
+    height: 60px; 
+    padding-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+#firstlogo{
+    color: #119062;
+    font-size: 20;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    background-color: #119062;
+    color: white;
+    border:#119062;
+    font-family: 'poppins';
+    font-size: 20;
+    border-radius: 15px;
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Ending of header section */
+/*  Beginning of body section*/
+.body-holder{
+    width: 100%;
+    height: auto;
+    background-color: #1e1e1e;
+}
+.inner-content{
+    width: 100%;
+    height: auto; 
+    /* background-color: #119062;  */
+    display: flex;
+    justify-content: center;
+}
+.left-content{
+    width: 300px;
+    height: 920px;
+    background-color: #119062;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+}
+.left-content img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#name{
+    text-align: center;
+    color: white;
+}
+#career{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
+#Developer{
+    color: black;
+    font-size: 18px;
+}
+#contactInfo{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+}
+.fa-envelope{
+    padding-top: 15px;
+    color: #1e1e1e;
+    font-size: 20; 
+    padding-left: 10px;
+}
+p{
+    font-size: 13px;
+    color: white;
+}
+.fa-location-dot{
+    padding-top: 15px;
+    color: #1e1e1e;
+    font-size: 20;
+    padding-left: 10px; 
+}
+.fa-phone{
+    padding-top: 15px;
+    color: #1e1e1e;
+    font-size: 20;
+    padding-left: 10px;
+}
+.fa-github{
+    padding-top: 15px;
+    color: #1e1e1e;
+    font-size: 20;
+    padding-left: 10px;   
+}
+.fa-instagram{
+    padding-top: 15px;
+    color: #1e1e1e;
+    font-size: 20;
+    padding-left: 10px;     
+}
+#educ-description{
+    text-align: center;
+    padding-top: 30px;
+}
+#level-description{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+h6{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.skills{
+    width: 500px;
+    justify-content: center;
+    
+}
+#ubumenyi{
+    color: white;
+    font-weight: normal;
+}
+.skills li{
+    margin: 20px 0;
+    padding : 5px;
+    list-style: none;
+}
+.bar{
+    width: 280px;
+    background-color: white;
+    display: block;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px #119062;
+    transition: all .3s cubic-bezier(.25,.8,.25,.1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px #119062;
+}
+.bar span{
+    height: 15px;
+    float: left;
+    background-color: black;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 87%;
+    animation: css 3s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+.react{
+    width: 68%;
+    animation: react 3s;
+}
+.tail{
+    width: 75%;
+    animation: tail 3s;
+}
+.figma{
+    width: 94%;
+    animation:figma 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes tail{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes figma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 94%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 68%;
+    }
+}
+.right-content{
+    margin-top: 20px;
+    width: 600px;
+    height: 920px;
+    background-color: white;  
+    border-top-right-radius: 10px;
+}
+#profile{
+    text-align: center;
+    color: black;  
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 8px;
+}
+#profileDescription{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: normal;
+    word-spacing: 5px;
+}
+#experiences{
+    text-align: center;
+    color: black;  
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 8px;
+    padding-top: 50px;  
+}
+#time{
+    color: black;
+    font-weight: normal;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 5px;
+}
+#position{
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+#professionalskills{
+    width: 500px;
+    justify-content: center;
+    background: #1e1e1e;  
+}
+#professionalskills h6{
+    color: black;
+}
+.bar span{
+    background-color: black;
+ 
+}
+#skillInfo{
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 5px;
+}
+.lower-part{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    list-style: none;
+    /* background-color: aqua; */
+}
+
+.Professionalskills .bar span{
+    background-color: black;
+}
+.Professionalskills h6{
+    color: black;
+    font-weight: normal;
+    padding-top: 10px;
+}
+#int{
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #119062;
+    padding-top: 10px;
+}
+
+/* footer sections starting */
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+}
+.left-logo{
+    width: 300px;
+    height: 130px;
+   border-top-right-radius: 50%;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Quick-links{
+    width: 400px;
+    height: 130px;
+    border-left: 3px solid #119062;
+    
+}
+.Quick-links a{
+    display: block;
+    padding-left: 60px;
+    padding-top: 3px;
+    font-weight: lighter;
+}
+#splashfooter{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #119062;
+    text-underline-offset: 3px;
+}
+.socialmedia{
+    width: 300px;
+    height: 130px;
+}
+.socialmedia p{
+    font-size: 13px;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+#follow{
+    color: #119062;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fa-x-twitter{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px; 
+}
+.fa-github{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20; 
+    padding-right: 10px;   
+}
+.fa-instagram{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;  
+    padding-right: 10px;   
+}
+.fa-linkedin{
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px;  
+}
+.logos{
+    white-space: nowrap;
+}
+/* footer sections ending */
+
